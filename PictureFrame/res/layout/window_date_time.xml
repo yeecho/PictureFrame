@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <View 
+        android:layout_width="1dp"
+        android:layout_height="65dp"
+        android:background="#ffffffff"/>
+    <TextView 
+        android:id="@+id/tv_datetime_month"
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:text="12"
+        style="@style/tv_set_child_theme"/>
+    <View 
+        android:layout_width="1dp"
+        android:layout_height="65dp"
+        android:background="#ffffffff"/>
+    <TextView 
+        android:id="@+id/tv_datetime_day"
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:text="22"
+        style="@style/tv_set_child_theme"/>
+    <View 
+        android:layout_width="1dp"
+        android:layout_height="65dp"
+        android:background="#ffffffff"/>
+    <TextView 
+        android:id="@+id/tv_datetime_year"
+        android:layout_width="100dp"
+        android:layout_height="65dp"
+        android:text="2016"
+        style="@style/tv_set_child_theme"/>
+    <View 
+        android:layout_width="1dp"
+        android:layout_height="65dp"
+        android:background="#ffffffff"/>
+    <TextView 
+        android:id="@+id/tv_datetime_hour"
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:text="22"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:layout_width="5dp"
+        android:layout_height="65dp"
+        android:text=":"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"/>
+    <TextView 
+        android:id="@+id/tv_datetime_minute"
+        android:layout_width="50dp"
+        android:layout_height="65dp"
+        android:text="30"
+        style="@style/tv_set_child_theme"/>
+    <View 
+        android:layout_width="1dp"
+        android:layout_height="65dp"
+        android:background="#ffffffff"/>
+    <TextView 
+        android:id="@+id/tv_datetime_am"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:text="AM"
+        style="@style/tv_set_child_theme"/>
+    <View 
+        android:layout_width="1dp"
+        android:layout_height="65dp"
+        android:background="#ffffffff"/>
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#999999"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/tv_edit_dialog_copy"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Copy"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:id="@+id/tv_edit_dialog_cut"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Cut"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:id="@+id/tv_edit_dialog_paste"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Paste"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:id="@+id/tv_edit_dialog_delete"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Delete"
+        style="@style/tv_set_child_theme"/>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">相框桌面</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">你好，世界！</string>
+    
+    <string name="sunday">日</string>
+    <string name="monday">一</string>
+    <string name="thesday">二</string>
+    <string name="wednesday">三</string>
+    <string name="thursday">四</string>
+    <string name="friday">五</string>
+    <string name="saturday">六</string>
+    
+    <string name="grid_edit_title">选择模式</string>
+    <string name="tv_edit_selected_counts">已选个数 ：</string>
+
+    <string name="tvset_datetime">"时间和日期"</string>
+</resources>

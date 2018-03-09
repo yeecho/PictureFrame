@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	<TextView 
+	    android:id="@+id/tvset_transition_normal"
+	    android:layout_width="300dp"
+	    android:layout_height="65dp"
+	    style="@style/tv_set_child_theme"
+	    android:text="Normal"/>
+	<TextView 
+	    android:id="@+id/tvset_transition_random"
+	    android:layout_width="300dp"
+	    android:layout_height="65dp"
+	    style="@style/tv_set_child_theme"
+	    android:text="Random"/>
+	<TextView 
+	    android:id="@+id/tvset_transition_fade"
+	    android:layout_width="300dp"
+	    android:layout_height="65dp"
+	    style="@style/tv_set_child_theme"
+	    android:text="Fade"/>
+	<TextView 
+	    android:id="@+id/tvset_transition_left_right"
+	    android:layout_width="300dp"
+	    android:layout_height="65dp"
+	    style="@style/tv_set_child_theme"
+	    android:text="Left-Right"/>
+	<TextView 
+	    android:id="@+id/tvset_transition_top_bottom"
+	    android:layout_width="300dp"
+	    android:layout_height="65dp"
+	    style="@style/tv_set_child_theme"
+	    android:text="Top-Bottom"/>
+	<!--  TextView 
+	    android:id="@+id/tvset_transition_open_door"
+	    android:layout_width="300dp"
+	    android:layout_height="70dp"
+	    style="@style/tv_set_child_theme"
+	    android:text="Open-door"/
+	<TextView 
+	    android:id="@+id/tvset_transition_cross_comb"
+	    android:layout_width="300dp"
+	    android:layout_height="70dp"
+	    style="@style/tv_set_child_theme"
+	    android:text="Cross-Comb"/> -->
+</LinearLayout>

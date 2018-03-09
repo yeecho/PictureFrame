@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/tvset_interval_5s"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="5 seconds"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:id="@+id/tvset_interval_10s"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="10 seconds"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:id="@+id/tvset_interval_30s"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="30 seconds"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:id="@+id/tvset_interval_1m"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="1 minute"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:id="@+id/tvset_interval_1h"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="1 hour"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:id="@+id/tvset_interval_1d"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="1 day"
+        style="@style/tv_set_child_theme"/>
+  
+</LinearLayout>

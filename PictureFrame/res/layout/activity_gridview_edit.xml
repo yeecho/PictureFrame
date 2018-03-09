@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#666666"
+    android:paddingTop="15dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp" >
+	
+    <RelativeLayout 
+        android:id="@+id/rl_edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grid_edit_title"
+            android:textColor="@color/white"
+            android:textSize="30sp"/>
+        <TextView 
+            android:id="@+id/tv_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/tv_edit_selected_counts"
+            android:textColor="@color/white"
+            android:textSize="22sp"/>
+        
+    </RelativeLayout>
+    <GridView
+            android:id="@+id/gv_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rl_edit_title"
+            android:layout_marginBottom="65dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:numColumns="4"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="insideInset"
+            android:scrollbarThumbVertical="@drawable/gridview_scrollbar"
+            android:scrollbarFadeDuration="10000">
+        </GridView>
+        
+    <LinearLayout 
+        android:id="@+id/grid_imageinfo"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:id="@+id/tv_edit_imageinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/tvset_power_saving_off"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="Off"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:id="@+id/tvset_power_saving_15m"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="15 minutes"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:id="@+id/tvset_power_saving_30m"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="30 minutes"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:id="@+id/tvset_power_saving_1h"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="1 hour"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:id="@+id/tvset_power_saving_2h"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="2 hour"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:id="@+id/tvset_power_saving_6h"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="6 hour"
+        style="@style/tv_set_child_theme"/>
+  
+</LinearLayout>

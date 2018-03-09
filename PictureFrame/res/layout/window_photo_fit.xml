@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/tvset_photo_fit_on"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:text="Fit to screen"
+        style="@style/tv_set_child_theme"/>
+    <TextView 
+        android:id="@+id/tvset_photo_fit_off"
+        android:layout_width="230dp"
+        android:layout_height="65dp"
+        android:text="Fill screen"
+        style="@style/tv_set_child_theme"/>
+  
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyPF</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="sunday">Sun</string>
+    <string name="monday">Mon</string>
+    <string name="thesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+    <string name="saturday">Sat</string>
+    
+    <string name="grid_edit_title">sélectionner mode</string>
+    <string name="tv_edit_selected_counts">"certains chefs d'accusation :"</string>
+
+    <string name="tvset_datetime">"Date and Time"</string>
+</resources>

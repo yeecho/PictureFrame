@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_blue"
+    android:gravity="center" >
+    
+	<TextView 
+	    android:id="@+id/sd_tv_main"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:focusable="true"
+	    android:background="@drawable/icon_sd"
+	    android:nextFocusLeft="@+id/calendar_tv_main"
+	    android:nextFocusUp="@+id/settings_tv_main"/>
+	<TextView 
+	    android:id="@+id/usb_tv_main"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@+id/sd_tv_main"
+	    android:layout_marginLeft="10dp"
+	    android:focusable="true"
+	    android:background="@drawable/icon_usb"
+	    android:nextFocusUp="@+id/settings_tv_main"/>
+	<TextView 
+	    android:id="@+id/memory_tv_main"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@+id/usb_tv_main"
+	    android:layout_marginLeft="10dp"
+	    android:focusable="true"
+	    android:background="@drawable/icon_memory"
+	    android:nextFocusUp="@+id/calendar_tv_main"
+	    android:nextFocusRight="@+id/settings_tv_main"/>
+	
+	<TextView 
+	    android:id="@+id/settings_tv_main"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/sd_tv_main"
+	    android:layout_marginTop="10dp"
+	    android:focusable="true"
+	    android:background="@drawable/icon_settings"
+	    android:nextFocusLeft="@+id/memory_tv_main"
+	    android:nextFocusDown="@+id/sd_tv_main"/>
+	<TextView 
+	    android:id="@+id/calendar_tv_main"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@+id/settings_tv_main"
+	    android:layout_below="@+id/sd_tv_main"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="10dp"
+	    android:focusable="true"
+	    android:background="@drawable/icon_calendar"
+	    android:nextFocusRight="@+id/sd_tv_main"
+	    android:nextFocusDown="@+id/memory_tv_main"/>
+</RelativeLayout>
